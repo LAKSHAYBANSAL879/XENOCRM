@@ -14,7 +14,7 @@ const [role,setRole]=useState(null);
       try {
         const token = Cookies.get('token');
         if (token) {
-          const response = await axios.get('http://localhost:8080/api/v1/auth/getuser', {
+          const response = await axios.get('https://xenocrm-j1t6.onrender.com/api/v1/auth/getuser', {
             headers: {
               Authorization: `${token}`,
             },

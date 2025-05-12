@@ -52,7 +52,7 @@ export default function CampaignsDashboard() {
   
   const fetchCampaigns = async () => {
     try {
-      const response = await fetch('http://localhost:8080/api/v1/campaign');
+      const response = await fetch('https://xenocrm-j1t6.onrender.com/api/v1/campaign');
       if (!response.ok) {
         throw new Error('Failed to fetch campaigns');
       }
@@ -65,7 +65,7 @@ export default function CampaignsDashboard() {
 
   const fetchCampaignDetails = async (campaignId) => {
     try {
-      const response = await fetch(`http://localhost:8080/api/v1/campaign/${campaignId}`);
+      const response = await fetch(`https://xenocrm-j1t6.onrender.com/api/v1/campaign/${campaignId}`);
       if (!response.ok) {
         throw new Error(`Failed to fetch details for campaign ${campaignId}`);
       }

@@ -79,7 +79,7 @@ const CampaignCreation = () => {
     
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:8080/api/v1/customer/parse-rule', { 
+      const response = await axios.post('https://xenocrm-j1t6.onrender.com/api/v1/customer/parse-rule', { 
         rule: formData.customRule 
       });
       
@@ -360,7 +360,7 @@ const CampaignCreation = () => {
     setLoading(true);
     try {
       
-      await axios.post('http://localhost:8080/api/v1/campaign', formData);
+      await axios.post('https://xenocrm-j1t6.onrender.com/api/v1/campaign', formData);
       
      toast.success("Campaign created successfully")
       navigate('/campaigns');

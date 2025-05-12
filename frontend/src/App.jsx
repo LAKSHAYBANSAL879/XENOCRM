@@ -8,6 +8,7 @@ import HomePage from "./Components/Home/Home"
 import Navbar from "./Components/Home/Navbar"
 import CampaignsHome from "./Components/Campaigns/CampaignsHome"
 import ProtectedRoute from "./ProtectedRoute.jsx"
+const clientId = import.meta.env.VITE_APP_GOOGLE_CLIENT_ID;
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <div>
       <ToastContainer position="top-right" autoClose={3000} />
       <UserContextProvider>
-      <GoogleOAuthProvider clientId="499041927879-khir1qaj8d3tpvp1tdotocoovri92a7c.apps.googleusercontent.com">
+      <GoogleOAuthProvider clientId={clientId}>
         <Navbar/>
     <Routes>
       <Route path='/' element={<HomePage/>}/>

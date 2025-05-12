@@ -22,7 +22,7 @@ export default function LoginForm() {
       const decoded = jwtDecode(credentialResponse.credential);
       const {email } = decoded;
       try {
-        const response = await axios.post('http://localhost:8080/api/v1/auth/googleLogin', {
+        const response = await axios.post('https://xenocrm-j1t6.onrender.com/api/v1/auth/googleLogin', {
           email,
         });
 
@@ -47,7 +47,7 @@ export default function LoginForm() {
   const loginUser = async (ev) => {
     ev.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/api/v1/auth/signin', {
+      const response = await axios.post('https://xenocrm-j1t6.onrender.com/api/v1/auth/signin', {
         email,
         password,
       });

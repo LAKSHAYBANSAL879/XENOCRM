@@ -23,7 +23,7 @@ const Navbar = () => {
   const handleLogout =async () => {
     try {
         const userId=user._id
-        await axios.post(`http://localhost:8080/api/v1/auth/logout/${userId}`);
+        await axios.post(`https://xenocrm-j1t6.onrender.com/api/v1/auth/logout/${userId}`);
     
         setUser(null);
         Cookies.remove("token");

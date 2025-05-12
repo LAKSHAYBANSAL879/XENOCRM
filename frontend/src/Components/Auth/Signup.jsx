@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:8080/api/v1';
+const API_URL = 'https://xenocrm-j1t6.onrender.com/api/v1';
 
 const Signup = () => {
   const [activeStep, setActiveStep] = useState(0);

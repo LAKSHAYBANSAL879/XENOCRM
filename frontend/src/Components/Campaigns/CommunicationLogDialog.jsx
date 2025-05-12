@@ -21,7 +21,7 @@ const CommunicationLogDialog = ({ open, handleClose, campaign }) => {
     setLoading(true);
     try {
       
-      const response = await axios.get(`http://localhost:8080/api/v1/campaign/getLogs/${campaignId}`);
+      const response = await axios.get(`https://xenocrm-j1t6.onrender.com/api/v1/campaign/getLogs/${campaignId}`);
       setLogs(response.data.data || []);
     } catch (error) {
       console.error('Failed to fetch communication logs:', error);

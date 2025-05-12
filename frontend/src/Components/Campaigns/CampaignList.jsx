@@ -73,7 +73,7 @@ const CampaignList = () => {
   useEffect(() => {
     const fetchCampaigns = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api/v1/campaign'); 
+        const response = await axios.get('https://xenocrm-j1t6.onrender.com/api/v1/campaign'); 
         setCampaigns(response.data.data);
       } catch (error) {
         console.error('Failed to fetch campaigns:', error);
@@ -87,7 +87,7 @@ const CampaignList = () => {
   const fetchCampaignAnalytics = async (campaignId) => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:8080/api/v1/campaign/${campaignId}`);
+      const response = await axios.get(`https://xenocrm-j1t6.onrender.com/api/v1/campaign/${campaignId}`);
       setCampaignAnalytics(response.data.stats);
       return response.data.stats;
     } catch (error) {
@@ -153,7 +153,7 @@ const CampaignList = () => {
     
   const deleteCampaign = async (id) => {
     try {
-      await axios.delete(`http://localhost:8080/api/v1/campaig/${id}`);
+      await axios.delete(`https://xenocrm-j1t6.onrender.com/api/v1/campaig/${id}`);
       setCampaigns(prev => prev.filter(c => c._id !== id));
     } catch (error) {
       console.error('Failed to delete campaign:', error);
