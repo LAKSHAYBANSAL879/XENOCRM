@@ -86,7 +86,6 @@ npm run dev
 
   * Tracking who opened emails via hidden image pixels is **blocked by Gmail**, so "opened" metrics may be inaccurate.
 * 🛠️ **No Retry Logic** for failed message deliveries (enhancements planned).
-* 🔐 **Client ID Exposure**: Google OAuth client ID is exposed in frontend due to OAuth limitations—secure environment variable setup recommended if deploying.
 
 ---
 
