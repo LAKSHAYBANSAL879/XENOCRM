@@ -45,8 +45,8 @@ A full-stack AI-powered campaign management system that enables employees to cre
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/campaign-manager.git
-cd campaign-manager
+git clone https://github.com/LAKSHAYBANSAL879/XENOCRM
+cd XENOCRM
 ```
 
 ### 2. Set Up the Backend
