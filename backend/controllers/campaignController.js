@@ -199,7 +199,7 @@ const processCampaign = async (campaignId) => {
           message: personalizedMessage
         };
 
-        const redirectUrl = encodeURIComponent("http://localhost:5173");
+        const redirectUrl = encodeURIComponent("https://xenocrm-five.vercel.app/");
         const clickTrackingUrl = `${getNgrokUrl()}/api/v1/campaign/track/click?cid=${campaign._id}&uid=${customer._id}&redirect=${redirectUrl}`;
         const trackingUrl = `${getNgrokUrl()}/api/v1/campaign/track/open?cid=${campaign._id}&uid=${customer._id}&cb=${Date.now()}`;
 
