@@ -295,7 +295,7 @@ const generatePersonalizedMessage = async (customer, campaign) => {
         - Campaign description: ${campaign.description || 'Special offer'}
         - Campaign goal: ${campaign.goal || 'Increase sales'}
         
-        Make it concise, friendly, and personalized. include any offer detail from description itself company name as Team CRM.
+        Make it concise, friendly, and personalized. include any offer detail from description itself company name as Team CRM dont add image.
       `;
       
       const result = await model.generateContent(prompt);
