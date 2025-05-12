@@ -9,7 +9,7 @@ const User = require('./modals/user.js');
 const http = require('http');
 const { connectRabbitMQ } = require("./rabbit.js");
 const ngrok=require('@ngrok/ngrok')
-const {setNgrokUrl}=require('./ngrokConfig.js')
+// const {setNgrokUrl}=require('./ngrokConfig.js')
 
 
 dotenv.config();
@@ -64,9 +64,9 @@ server.listen(PORT, () => {
   console.log(`Node Server Running On Port ${PORT}`);
 });
 // ngork connection for localenv 
-ngrok.connect({ addr: 8080, authtoken_from_env: true })
-  .then(listener => {
-    const url = listener.url();
-    setNgrokUrl(url); 
-    console.log(`🔗 ngrok tunnel started at: ${url}`);
-  });
+// ngrok.connect({ addr: 8080, authtoken_from_env: true })
+//   .then(listener => {
+//     const url = listener.url();
+//     setNgrokUrl(url); 
+//     console.log(`🔗 ngrok tunnel started at: ${url}`);
+//   });

@@ -3,7 +3,7 @@ const { sendToQueue } = require('../rabbit');
 const CommunicationLog=require('../modals/communicationLog');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const nodemailer = require('nodemailer');
-const { getNgrokUrl } = require('../ngrokConfig');
+// const { getNgrokUrl } = require('../ngrokConfig');
 
 // Initialize Google Generative AI client
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY);
