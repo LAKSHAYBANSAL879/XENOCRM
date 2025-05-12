@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Amit Sharma",
+      "email": "amit.sharma@example.com",
+      "mobile": "9876543210",
+      "city": "Delhi",
+      "state": "Delhi",
+      "lastVisited": "2024-05-01T00:00:00Z"
+    },
+    {
+      "name": "Bansalji",
+      "email": "lbansal879880@gmail.com",
+      "mobile": "9812345678",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lastVisited": "2024-04-18T00:00:00Z"
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@example.com",
+      "mobile": "9888777666",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lastVisited": "2024-05-03T00:00:00Z"
+    },
+    {
+      "name": "Neha Verma",
+      "email": "neha.verma@example.com",
+      "mobile": "9876547654",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "lastVisited": "2024-03-20T00:00:00Z"
+    },
+    {
+      "name": "Manish Yadav",
+      "email": "manish.yadav@example.com",
+      "mobile": "9823234567",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "lastVisited": "2024-05-05T00:00:00Z"
+    },
+    {
+      "name": "Anjali Singh",
+      "email": "anjali.singh@example.com",
+      "mobile": "9834567890",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lastVisited": "2024-04-01T00:00:00Z"
+    },
+    {
+      "name": "Saurabh Patel",
+      "email": "saurabh.patel@example.com",
+      "mobile": "9845654321",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lastVisited": "2024-04-10T00:00:00Z"
+    },
+    {
+      "name": "Divya Kapoor",
+      "email": "divya.kapoor@example.com",
+      "mobile": "9877771234",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "lastVisited": "2024-02-14T00:00:00Z"
+    },
+    {
+      "name": "Rahul Joshi",
+      "email": "rahul.joshi@example.com",
+      "mobile": "9871112222",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lastVisited": "2024-05-06T00:00:00Z"
+    },
+    {
+      "name": "Sneha Desai",
+      "email": "sneha.desai@example.com",
+      "mobile": "9866009988",
+      "city": "Surat",
+      "state": "Gujarat",
+      "lastVisited": "2024-03-01T00:00:00Z"
+    }
+  ]
+  

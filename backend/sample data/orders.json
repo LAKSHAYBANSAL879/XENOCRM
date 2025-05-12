@@ -1,0 +1,132 @@
+[
+    {
+      "amount": 2499,
+      "items": [
+        { "name": "Smart Watch", "amount": 1999 },
+        { "name": "Strap", "amount": 500 }
+      ],
+      "discount": 10,
+      "customerId": "681c76b100eadbc31651a2fa"
+    },
+    {
+      "amount": 999,
+      "items": [
+        { "name": "Bluetooth Earbuds", "amount": 999 }
+      ],
+      "discount": 5,
+      "customerId": "681c839ab89e0023528113c7"
+    },
+    {
+      "amount": 4999,
+      "items": [
+        { "name": "Tablet", "amount": 4500 },
+        { "name": "Stylus", "amount": 499 }
+      ],
+      "discount": 15,
+      "customerId": "681c76b100eadbc31651a2fa"
+    },
+    {
+      "amount": 799,
+      "items": [
+        { "name": "Phone Case", "amount": 799 }
+      ],
+      "discount": 0,
+      "customerId": "681c83b2b89e0023528113cb"
+    },
+    {
+      "amount": 1299,
+      "items": [
+        { "name": "Power Bank", "amount": 999 },
+        { "name": "Cable", "amount": 300 }
+      ],
+      "discount": 7,
+      "customerId": "681c83b2b89e0023528113cb"
+    },
+    {
+      "amount": 2999,
+      "items": [
+        { "name": "Wireless Speaker", "amount": 2999 }
+      ],
+      "discount": 10,
+      "customerId": "681c83b2b89e0023528113cb"
+    },
+    {
+      "amount": 1899,
+      "items": [
+        { "name": "Backpack", "amount": 1199 },
+        { "name": "Laptop Sleeve", "amount": 700 }
+      ],
+      "discount": 5,
+      "customerId": "681c83bfb89e0023528113cd"
+    },
+    {
+      "amount": 599,
+      "items": [
+        { "name": "USB Hub", "amount": 599 }
+      ],
+      "discount": 0,
+      "customerId": "681c83cbb89e0023528113cf"
+    },
+    {
+      "amount": 2099,
+      "items": [
+        { "name": "Router", "amount": 1799 },
+        { "name": "Ethernet Cable", "amount": 300 }
+      ],
+      "discount": 8,
+      "customerId": "681c83cbb89e0023528113cf"
+    },
+    {
+      "amount": 1599,
+      "items": [
+        { "name": "Wireless Keyboard", "amount": 899 },
+        { "name": "Mouse", "amount": 700 }
+      ],
+      "discount": 10,
+      "customerId": "681c83cbb89e0023528113cf"
+    },
+    {
+      "amount": 899,
+      "items": [
+        { "name": "Webcam", "amount": 899 }
+      ],
+      "discount": 5,
+      "customerId": "681c8427b89e0023528113d9"
+    },
+    {
+      "amount": 3499,
+      "items": [
+        { "name": "Monitor Stand", "amount": 2499 },
+        { "name": "Cable Organizer", "amount": 1000 }
+      ],
+      "discount": 12,
+      "customerId": "681c8427b89e0023528113d9"
+    },
+    {
+      "amount": 999,
+      "items": [
+        { "name": "HDMI Cable", "amount": 599 },
+        { "name": "DisplayPort Adapter", "amount": 400 }
+      ],
+      "discount": 3,
+      "customerId": "681c8427b89e0023528113d9"
+    },
+    {
+      "amount": 4599,
+      "items": [
+        { "name": "Desk Lamp", "amount": 999 },
+        { "name": "Ergonomic Chair", "amount": 3600 }
+      ],
+      "discount": 20,
+      "customerId": "681c8404b89e0023528113d7"
+    },
+    {
+      "amount": 1499,
+      "items": [
+        { "name": "Gaming Mouse", "amount": 1499 }
+      ],
+      "discount": 5,
+      "customerId": "681c83bfb89e0023528113cd"
+    }
+  ]
+  
