@@ -200,8 +200,8 @@ const processCampaign = async (campaignId) => {
         };
 
         const redirectUrl = encodeURIComponent("https://xenocrm-five.vercel.app/");
-        const clickTrackingUrl = `${getNgrokUrl()}/api/v1/campaign/track/click?cid=${campaign._id}&uid=${customer._id}&redirect=${redirectUrl}`;
-        const trackingUrl = `${getNgrokUrl()}/api/v1/campaign/track/open?cid=${campaign._id}&uid=${customer._id}&cb=${Date.now()}`;
+        const clickTrackingUrl = `https://xenocrm-j1t6.onrender.com/api/v1/campaign/track/click?cid=${campaign._id}&uid=${customer._id}&redirect=${redirectUrl}`;
+        const trackingUrl = `https://xenocrm-j1t6.onrender.com/api/v1/campaign/track/open?cid=${campaign._id}&uid=${customer._id}&cb=${Date.now()}`;
 
         const htmlMessage = `
           <p>${personalizedMessage}</p>
